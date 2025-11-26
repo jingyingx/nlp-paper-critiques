@@ -1,2 +1,2 @@
-# nlp-paper-critiques
-Collection of short critical evaluations of classical NLP papers, focusing on identifying limitations while interpreting each work in the context of its time, task, and scientific goals.
+# NLP paper critiques
+This repository collects concise, one-page critiques of foundational NLP papers. The goal is to critically examine each paper’s assumptions, experimental design, evaluation methodology, and weaknesses—while also recognizing the paper’s strengths and the historical constraints under which it was developed. Rather than judging past work by modern standards, the critiques focus on fairness, technical accuracy, and the specific problems each model was designed to solve. The critiques also bring linguistic insight from a linguist perspective. 
