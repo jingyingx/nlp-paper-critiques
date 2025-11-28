@@ -1,4 +1,4 @@
-#GPT or BERT: Why not both? (Charpentier & Samuel, 2024)  
+# GPT or BERT: Why not both? (Charpentier & Samuel, 2024) 
 *Critique by Jingying Xu*  
 
 The hybrid GPT-BERT model (Charpentier & Samuel, 2024) is the winner of the 2nd BabyLM Challenge (2024), a competition aimed at developing data-efficient pretraining methods using child-like amounts of data (10M–100M words) and providing insight into how humans successfully acquire language with limited linguistic input (Choshen et al., 2024). The challenge evaluates models on the BabyLM evaluation suite, which includes BLiMP/BLiMP-S for syntactic acceptability judgments, a GLUE subset for downstream understanding, EWoK for basic world knowledge plausibility, and LAMBADA for long-context prediction. Within this setting, the paper proposes a hybrid training objective that unifies BERT-style masked language modeling and GPT-style causal next-token prediction. The key idea is **Masked Next-Token Prediction**: during masked training, the model predicts token *k+1* at position *k*, which allows a single shared transformer to behave like BERT (bidirectional mask) or GPT (causal mask) without changing the architecture.
